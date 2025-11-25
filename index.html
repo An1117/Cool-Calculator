@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CoolCalc — Modern Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="calc-container">
+    <div class="brand">
+      <h1>Cool<span>Calc</span></h1>
+      <small>Smart • Responsive • Keyboard-ready</small>
+    </div>
+
+    <section class="display">
+      <div id="history" class="history"></div>
+      <input id="display" class="screen" type="text" readonly aria-label="Calculator display" />
+    </section>
+
+    <section class="pad">
+      <button class="btn wide btn-ac" data-op="AC">AC</button>
+      <button class="btn" data-op="±">±</button>
+      <button class="btn" data-op="%">%</button>
+      <button class="btn op" data-op="/">÷</button>
+
+      <button class="btn" data-num="7">7</button>
+      <button class="btn" data-num="8">8</button>
+      <button class="btn" data-num="9">9</button>
+      <button class="btn op" data-op="*">×</button>
+
+      <button class="btn" data-num="4">4</button>
+      <button class="btn" data-num="5">5</button>
+      <button class="btn" data-num="6">6</button>
+      <button class="btn op" data-op="-">−</button>
+
+      <button class="btn" data-num="1">1</button>
+      <button class="btn" data-num="2">2</button>
+      <button class="btn" data-num="3">3</button>
+      <button class="btn op" data-op="+">+</button>
+
+      <button class="btn zero" data-num="0">0</button>
+      <button class="btn" data-num=".">.</button>
+      <button class="btn equal" data-op="=">=</button>
+    </section>
+
+    <footer class="foot">
+      <small>Made for UCS 745 assignment — see README for git steps.</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

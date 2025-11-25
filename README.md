@@ -8,7 +8,7 @@ This is a small frontend calculator app built for the UCS 745 assignment. It dem
 3. Keyboard: digits, `+ - * / % ( )`, `Enter` to evaluate, `Backspace` to edit, `c` to clear.
 
 ## Merge Conflict (assignment specific)
-"Conflict created by Feature A"
+"Conflict resolved: Final README wording "
 
 ## Authors
 Anshita Sharma
